@@ -9,7 +9,7 @@ class Dog:
         self.size = "Unknown"
 
     def barks(self):
-        print("{} says 'WOOF!".format(self.name))
+        print("{} says 'WOOF!'".format(self.name))
 
 
 class YorkshireTerrier(Dog):

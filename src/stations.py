@@ -13,7 +13,7 @@ class Station:
     def calculate_sum_score(self) -> None:
         self.current_score = self.baseline_score + sum(self.staff_bonuses)
 
-    def __str__(self):
+    def __repr__(self):
         self.calculate_sum_score()
         return "{} (Score: {}) {} of {} positions filled.".format(
             self.station_name,
@@ -21,6 +21,9 @@ class Station:
             len(self.staff_list),
             self.section_cap,
         )
+
+    def __str__(self):
+        "{} station".format(self.station_name)
 
 
 class Engineering(Station):

@@ -1,6 +1,7 @@
 def bark(dog_name: str) -> None:
     print("{} says 'WOOF!'".format(str(dog_name)))
 
+
 fido_legs = 4
 spot_legs = 4
 lassie_legs = 4

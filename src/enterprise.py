@@ -15,3 +15,5 @@ class Enterprise:
     def __str__(self):
         print_string = """Space, the final frontier. These are the voyages of the Starship Enterprise. Its continuing mission: To explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."""
         return print_string
+
+# ToDo: Documentation
